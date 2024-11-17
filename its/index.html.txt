@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <section id="timer">
+            <h1>Countdown to Midnight</h1>
+            <div id="countdown"></div>
+        </section>
+
+        <!-- Interactive Hearts Section -->
+        <section class="interactive-hearts">
+            <h2>Click on the hearts to reveal surprises!</h2>
+            
+            <!-- Heart 1 -->
+            <div class="heart-container">
+                <div class="heart">
+                    <div class="front">
+                        ❤️
+                    </div>
+                    <div class="back" style="background-image: url('photo1.jpg');"></div>
+                </div>
+            </div>
+
+            <!-- Heart 2 -->
+            <div class="heart-container">
+                <div class="heart">
+                    <div class="front">
+                        ❤️
+                    </div>
+                    <div class="back" style="background-image: url('photo2.jpg');"></div>
+                </div>
+            </div>
+
+            <!-- Heart 3 -->
+            <div class="heart-container">
+                <div class="heart">
+                    <div class="front">
+                        ❤️
+                    </div>
+                    <div class="back" style="background-image: url('photo3.jpg');"></div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Hidden Content Section -->
+        <div id="content" style="display: none;">
+            <header>
+                <h1>Happy Birthday, My Love!</h1>
+                <p>To the one who makes every day brighter. I love you so much.</p>
+            </header>
+
+            <section class="message">
+                <h2>To My Forever Love</h2>
+                <p>My dearest,</p>
+                <p>On this special day, I want to remind you how amazing you are. You bring so much joy, love, and laughter into my life. Thank you for being you, for always being by my side, and for making every day feel like magic. I can’t wait to create more memories together. Happy Birthday!</p>
+                <p>With all my love,</p>
+                <p>Your [Your Name]</p>
+            </section>
+
+            <footer>
+                <p>Created with love, just for you!</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
